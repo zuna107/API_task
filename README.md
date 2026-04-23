@@ -1,14 +1,14 @@
 # Simple Products REST API
 
-A simple REST API built with **Node.js** and **Express** — no database required. Data is stored in-memory.
+A simple REST API built with **Node.js** and **Express** — no database required. Data di simpan dimemory.
 
 ---
 
 ## Tech Stack
 
-- **Node.js**
+- **Node.js 24**
 - **Express v5**
-- **Nodemon** (dev server)
+- **Nodemon**
 
 ---
 
@@ -36,9 +36,9 @@ Server will start at: `http://localhost:3000`
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/products` | Get all products |
+| GET | `/products` | Get semua products |
 | GET | `/products/:id` | Get product by ID |
-| POST | `/products` | Create a new product |
+| POST | `/products` | Create product baru |
 | PUT | `/products/:id` | Update a product |
 | DELETE | `/products/:id` | Delete a product |
 
